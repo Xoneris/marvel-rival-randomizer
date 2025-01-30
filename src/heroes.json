@@ -1,0 +1,177 @@
+[
+    {
+        "Hero":"Adam Warlock",
+        "Type":"Strategist",
+        "Icon":"Adam Warlock.png"
+    },
+    {
+        "Hero":"Black Panther",
+        "Type":"Duelist",
+        "Icon":"Black Panther.png"
+    },
+    {
+        "Hero":"Black Widow",
+        "Type":"Duelist",
+        "Icon":"Black Widow.png"
+    },
+    {
+        "Hero":"Captain America",
+        "Type":"Vanguard",
+        "Icon":"Captain America.png"
+    },
+    {
+        "Hero":"Cloak & Dagger",
+        "Type":"Strategist",
+        "Icon":"Cloak & Dagger.png"
+    },
+    {
+        "Hero":"Doctor Strange",
+        "Type":"Vanguard",
+        "Icon":"Doctor Strange.png"
+    },
+    {
+        "Hero":"Groot",
+        "Type":"Vanguard",
+        "Icon":"Groot.png"
+    },
+    {
+        "Hero":"Hawkeye",
+        "Type":"Duelist",
+        "Icon":"Hawkeye.png"
+    },
+    {
+        "Hero":"Hela",
+        "Type":"Duelist",
+        "Icon":"Hela.png"
+    },
+    {
+        "Hero":"Hulk",
+        "Type":"Vanguard",
+        "Icon":"Hulk.png"
+    },
+    {
+        "Hero":"Invisible Woman",
+        "Type":"Strategist",
+        "Icon":"Invisible Woman.png"
+    },
+    {
+        "Hero":"Iron Fist",
+        "Type":"Duelist",
+        "Icon":"Iron Fist.png"
+    },
+    {
+        "Hero":"Iron Man",
+        "Type":"Duelist",
+        "Icon":"Iron Man.png"
+    },
+    {
+        "Hero":"Jeff",
+        "Type":"Strategist",
+        "Icon":"Jeff.png"
+    },
+    {
+        "Hero":"Loki",
+        "Type":"Strategist",
+        "Icon":"Loki.png"
+    },
+    {
+        "Hero":"Luna Snow",
+        "Type":"Strategist",
+        "Icon":"Luna Snow.png"
+    },
+    {
+        "Hero":"Magik",
+        "Type":"Duelist",
+        "Icon":"Magik.png"
+    },
+    {
+        "Hero":"Magneto",
+        "Type":"Vanguard",
+        "Icon":"Magneto.png"
+    },
+    {
+        "Hero":"Mantis",
+        "Type":"Strategist",
+        "Icon":"Mantis.png"
+    },
+    {
+        "Hero":"Mister Fantastic",
+        "Type":"Duelist",
+        "Icon":"Mister Fantastic.png"
+    },
+    {
+        "Hero":"Moon Knight",
+        "Type":"Duelist",
+        "Icon":"Moon Knight.png"
+    },
+    {
+        "Hero":"Namor",
+        "Type":"Duelist",
+        "Icon":"Namor.png"
+    },
+    {
+        "Hero":"Peni Parker",
+        "Type":"Vanguard",
+        "Icon":"Peni Parker.png"
+    },
+    {
+        "Hero":"Psylocke",
+        "Type":"Duelist",
+        "Icon":"Psylocke.png"
+    },
+    {
+        "Hero":"Rocket Raccoon",
+        "Type":"Strategist",
+        "Icon":"Rocket Raccoon.png"
+    },
+    {
+        "Hero":"Scarlet Witch",
+        "Type":"Duelist",
+        "Icon":"Scarlet Witch.png"
+    },
+    {
+        "Hero":"Spider-Man",
+        "Type":"Duelist",
+        "Icon":"Spider-Man.png"
+    },
+    {
+        "Hero":"Squirrel Girl",
+        "Type":"Duelist",
+        "Icon":"Squirrel Girl.png"
+    },
+    {
+        "Hero":"Star-Lord",
+        "Type":"Duelist",
+        "Icon":"Star-Lord.png"
+    },
+    {
+        "Hero":"Storm",
+        "Type":"Duelist",
+        "Icon":"Storm.png"
+    },
+    {
+        "Hero":"The Punisher",
+        "Type":"Duelist",
+        "Icon":"The Punisher.png"
+    },
+    {
+        "Hero":"Thor",
+        "Type":"Vanguard",
+        "Icon":"Thor.png"
+    },
+    {
+        "Hero":"Venom",
+        "Type":"Vanguard",
+        "Icon":"Venom.png"
+    },
+    {
+        "Hero":"Winter Soldier",
+        "Type":"Duelist",
+        "Icon":"Winter Soldier.png"
+    },
+    {
+        "Hero":"Wolverine",
+        "Type":"Duelist",
+        "Icon":"Wolverine.png"
+    }
+]
