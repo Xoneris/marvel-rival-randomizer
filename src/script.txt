@@ -1,0 +1,56 @@
+<script setup lang="ts">
+  import { ref } from "vue";
+  import heroes from "./heroes.json"
+
+  interface Hero {
+    "Hero" : string,
+    "Type" : string,
+    "Icon" : string,
+  }
+
+  const currentHero = ref<Hero>({
+    "Hero":"",
+    "Type":"",
+    "Icon":"",
+  })
+
+  const lastHeroes = ref<Hero[]>([])
+
+  function randomHero(type:string) {
+
+    let heroArray
+
+    if (type !== "") {
+      heroArray = heroes.filter((hero) => hero.Type === type)
+    } else {
+      heroArray = heroes
+    }
+
+    if(currentHero.value.Hero !== "") {
+
+      if(lastHeroes.value.length >= 3) {
+        lastHeroes.value.reverse().pop()
+        lastHeroes.value.reverse().push({...currentHero.value})
+      } else {
+        lastHeroes.value.push({...currentHero.value})
+      }
+
+    }
+
+    let random = Math.floor(Math.random() * heroArray.length)
+
+    for(let i=0 ; i<lastHeroes.value.length ; i++) {
+      let ok = false
+      while(ok === false) {
+        if (heroArray[random].Hero === lastHeroes.value[i].Hero) {
+          random = Math.floor(Math.random() * heroArray.length)
+        } else {
+          ok = true
+        }
+      }
+    }
+
+    currentHero.value = heroArray[random] 
+  }
+
+</script>
