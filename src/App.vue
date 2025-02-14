@@ -84,7 +84,11 @@
         </div>
         
         <div v-if="lastHeroes.length > 0" class="flex flex-col gap-2 p-2 rounded-lg bg-white/50">
-          <p class="text-black text-2xl">Last 3 Heroes:</p>
+
+          <p v-if="lastHeroes.length === 1" class="text-black text-2xl">Last Hero:</p>
+          <p v-if="lastHeroes.length === 2" class="text-black text-2xl">Last 2 Heroes:</p>
+          <p v-if="lastHeroes.length > 2" class="text-black text-2xl">Last 3 Heroes:</p>
+          
           <p class="text-black text-xl" v-for="hero in lastHeroes" :key="hero.Hero">{{ hero.Hero }}</p>
         </div>
         
@@ -92,5 +96,3 @@
     </div>
   </div>
 </template>
-
-
