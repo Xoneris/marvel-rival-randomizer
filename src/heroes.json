@@ -173,5 +173,16 @@
         "Hero":"Wolverine",
         "Type":"Duelist",
         "Icon":"Wolverine.png"
+    },
+    {
+        "Hero":"Human Torch",
+        "Type":"Duelist",
+        "Icon":"Human Torch.png"
+    },
+    {
+        "Hero":"The Thing",
+        "Type":"Vanguard",
+        "Icon":"The Thing.png"
     }
+    
 ]
