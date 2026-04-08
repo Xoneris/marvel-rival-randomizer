@@ -183,6 +183,71 @@
         "Hero":"The Thing",
         "Type":"Vanguard",
         "Icon":"The Thing.png"
+    },
+
+    {
+        "Hero":"Emma Frost",
+        "Type":"Vanguard",
+        "Icon":"Emma Frost.png"
+    },
+    {
+        "Hero":"Ultron",
+        "Type":"Strategist",
+        "Icon":"Ultron.png"
+    },
+    {
+        "Hero":"Blade",
+        "Type":"Duelist",
+        "Icon":"Blade.png"
+    },
+    {
+        "Hero":"Jean Grey",
+        "Type":"Duelist",
+        "Icon":"Jean Grey.png"
+    },
+    {
+        "Hero":"Angela",
+        "Type":"Vanguard",
+        "Icon":"Angela.png"
+    },
+    {
+        "Hero":"Daredevil",
+        "Type":"Duelist",
+        "Icon":"Daredevil.png"
+    },
+    {
+        "Hero":"Gambit",
+        "Type":"Strategist",
+        "Icon":"Gambit.png"
+    },
+    {
+        "Hero":"Rogue",
+        "Type":"Vanguard",
+        "Icon":"Rogue.png"
+    },
+    {
+        "Hero":"Deadpool Vanguard",
+        "Type":"Vanguard",
+        "Icon":"Deadpool Vanguard.png"
+    },
+    {
+        "Hero":"Deadpool Duelist",
+        "Type":"Duelist",
+        "Icon":"Deadpool Duelist.png"
+    },
+    {
+        "Hero":"Deadpool Strategist",
+        "Type":"Strategist",
+        "Icon":"Deadpool Strategist.png"
+    },
+    {
+        "Hero":"Elsa Bloodstone",
+        "Type":"Duelist",
+        "Icon":"Elsa Bloodstone.png"
+    },
+    {
+        "Hero":"White Fox",
+        "Type":"Strategist",
+        "Icon":"White Fox.png"
     }
-    
 ]

@@ -27,7 +27,7 @@
     }
 
     if (currentHero.value.Hero !== "") {
-      if (lastHeroes.value.length >= 3) {
+      if (lastHeroes.value.length >= 5) {
         lastHeroes.value.shift();
       }
       lastHeroes.value.push({ ...currentHero.value });
@@ -87,7 +87,9 @@
 
           <p v-if="lastHeroes.length === 1" class="text-black text-2xl">Last Hero:</p>
           <p v-if="lastHeroes.length === 2" class="text-black text-2xl">Last 2 Heroes:</p>
-          <p v-if="lastHeroes.length > 2" class="text-black text-2xl">Last 3 Heroes:</p>
+          <p v-if="lastHeroes.length === 3" class="text-black text-2xl">Last 3 Heroes:</p>
+          <p v-if="lastHeroes.length === 4" class="text-black text-2xl">Last 4 Heroes:</p>
+          <p v-if="lastHeroes.length > 4" class="text-black text-2xl">Last 5 Heroes:</p>
           
           <p class="text-black text-xl" v-for="hero in lastHeroes" :key="hero.Hero">{{ hero.Hero }}</p>
         </div>
