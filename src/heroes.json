@@ -249,5 +249,10 @@
         "Hero":"White Fox",
         "Type":"Strategist",
         "Icon":"White Fox.png"
+    },
+    {
+        "Hero":"Black Cat",
+        "Type":"Duelist",
+        "Icon":"Black Cat.png"
     }
 ]
